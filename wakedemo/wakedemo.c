@@ -70,7 +70,7 @@ screen_update_ball()
   draw_ball(drawPos[0], drawPos[1], COLOR_BLUE); /* erase */
   for (char axis = 0; axis < 2; axis ++) 
     drawPos[axis] = controlPos[axis];
-  draw_ball(drawPos[0], drawPos[1], COLOR_WHITE); /* draw */
+  draw_ball(drawPos[0], drawPos[1], COLOR_RED); /* draw */
 }
   
 
